@@ -88,8 +88,25 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #undef ENABLE_RGB_MATRIX_SOLID_SPLASH
 #undef ENABLE_RGB_MATRIX_SOLID_MULTISPLASH
 
-
+// Kinetic Mode Settings
 #define MK_KINETIC_SPEED 
-#define MOUSEKEY_INITIAL_SPEED 20
-#define MK_VARIANT MK_TYPE_KINETIC
+#define MOUSEKEY_DELAY 20 // Key-movement built in delay (ms)
+#define MOUSEKEY_INTERVAL 2 // ms/update (2 is 500hz)
+#define MOUSEKEY_INITIAL_SPEED 250 // starting speed pxls/second
+#define MOUSEKEY_MOVE_DELTA 25 // increase in speed each interval? I think
+#define MOUSEKEY_BASE_SPEED 7500 // maximum cursor speed pxls/second
+// #define MOUSEKEY_DECELERATED_SPEED 400 // Probably ACL_0 speed
+// #define MOUSEKEY_ACCELERATED_SPEED 3000 // Probably ACL_2 speed
+#define MOUSEKEY_WHEEL_INITIAL_MOVEMENTS 11 // Initial scroll steps/s
+#define MOUSEKEY_WHEEL_BASE_MOVEMENTS 24 // maximum scroll steps/s
+
+// // Inertia Mode Settings
+// #define MOUSEKEY_INERTIA
+// #define MOUSEKEY_DELAY 75 //TODO SET DELAY LOWER 
+// #define MOUSEKEY_INTERVAL 6
+// #define MOUSEKEY_MAX_SPEED 15
+// #define MOUSEKEY_FRICTION 20
+// #define MOUSEKEY_MOVE_DELTA 1
+
+// #define MK_VARIANT MK_TYPE_KINETIC // I have no clue what this does
 
