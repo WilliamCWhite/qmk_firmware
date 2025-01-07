@@ -47,7 +47,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [1] = LAYOUT_split_3x6_3( // Symbol Layer
         KC_TILD, KC_1, KC_2,             /*s*/ KC_3, KC_4, KC_5,             /*m*/ KC_6, KC_7, KC_8,              /*e*/ KC_9, KC_0, KC_BSLS, 
-        KC_GRV, KC_DQUO, KC_QUOT,        /*s*/ KC_LPRN, KC_RPRN, KC_DLR,     /*m*/ KC_AT, KC_UNDS, KC_EQL,        /*e*/ KC_MINS, KC_PLUS, KC_CIRC, 
+        KC_GRV, KC_QUOT, KC_DQUO,        /*s*/ KC_LPRN, KC_RPRN, KC_DLR,     /*m*/ KC_AT, KC_UNDS, KC_EQL,        /*e*/ KC_MINS, KC_PLUS, KC_CIRC, 
         OSM(MOD_LALT), KC_PERC, KC_EXLM, /*s*/ KC_LBRC, KC_RBRC, KC_PIPE,    /*m*/ KC_AMPR, KC_LCBR, KC_RCBR,     /*e*/ KC_HASH, KC_ASTR, TO(0),
                                          /*s*/ OSL(2), OSM(MOD_LSFT), TO(1), /*m*/ KC_BSPC, KC_SPC, OSM(MOD_LCTL) /*e*/
     ),
