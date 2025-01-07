@@ -40,14 +40,14 @@ enum custom_keycodes {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_split_3x6_3( // Base Layer
-        KC_ESC, KC_Q, KC_W,        /*s*/ KC_F, KC_P, KC_B,              /*m*/ KC_J, KC_L, KC_U,              /*e*/ KC_Y, KC_QUOT, OSM(MOD_LGUI), 
-        KC_TAB, KC_A, KC_R,        /*s*/ KC_S, KC_T, KC_G,              /*m*/ KC_M, KC_N, KC_E,              /*e*/ KC_I, KC_O, KC_ENT, 
-        OSM(MOD_LALT), KC_Z, KC_X, /*s*/ KC_C, KC_D, KC_V,              /*m*/ KC_K, KC_H, KC_COMM,           /*e*/ KC_DOT, KC_SLSH, MO(4),
+        KC_ESC, KC_Q, KC_W,        /*s*/ KC_E, KC_R, KC_T,              /*m*/ KC_Y, KC_U, KC_I,              /*e*/ KC_O, KC_P, OSM(MOD_LGUI), 
+        KC_TAB, KC_A, KC_S,        /*s*/ KC_D, KC_F, KC_G,              /*m*/ KC_H, KC_J, KC_K,              /*e*/ KC_L, KC_SCLN, KC_ENT, 
+        OSM(MOD_LALT), KC_Z, KC_X, /*s*/ KC_C, KC_V, KC_B,              /*m*/ KC_N, KC_M, KC_COMM,           /*e*/ KC_DOT, KC_SLSH, MO(4),
                                    /*s*/ OSL(2), OSM(MOD_LSFT), OSL(1), /*m*/ KC_BSPC, KC_SPC, OSM(MOD_LCTL) /*e*/
     ),
     [1] = LAYOUT_split_3x6_3( // Symbol Layer
         KC_TILD, KC_1, KC_2,             /*s*/ KC_3, KC_4, KC_5,             /*m*/ KC_6, KC_7, KC_8,              /*e*/ KC_9, KC_0, KC_BSLS, 
-        KC_GRV, KC_COLN, KC_SCLN,        /*s*/ KC_LPRN, KC_RPRN, KC_DLR,     /*m*/ KC_AT, KC_UNDS, KC_EQL,        /*e*/ KC_MINS, KC_PLUS, KC_CIRC, 
+        KC_GRV, KC_DQUO, KC_QUOT,        /*s*/ KC_LPRN, KC_RPRN, KC_DLR,     /*m*/ KC_AT, KC_UNDS, KC_EQL,        /*e*/ KC_MINS, KC_PLUS, KC_CIRC, 
         OSM(MOD_LALT), KC_PERC, KC_EXLM, /*s*/ KC_LBRC, KC_RBRC, KC_PIPE,    /*m*/ KC_AMPR, KC_LCBR, KC_RCBR,     /*e*/ KC_HASH, KC_ASTR, TO(0),
                                          /*s*/ OSL(2), OSM(MOD_LSFT), TO(1), /*m*/ KC_BSPC, KC_SPC, OSM(MOD_LCTL) /*e*/
     ),
